@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+.splash {
+    position: relative;
+    height: 100vh;
+    border: 20px solid #e0e0f2;
+    background: #f9f9fc
+}
+.splash-inner {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 360px;
+}
+h2 {
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+    color:rgb(3, 13, 24);
+    margin-bottom: 0;
+    text-shadow: 4px 4px 5px rgba(56,24,15,0.79);
+}
+i {
+    font-size: 20px;
+    font-weight: bold;
+}
+p {
+    line-height: 1.4;
+    margin: 25px 0;
+}
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
